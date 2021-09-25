@@ -1,0 +1,13 @@
+{
+	"name": "Electron Overlay Demo",
+	"version": "1.0.0",
+	"description": "An invisible overlay on-top of your OS",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron --enable-transparent-visuals --disable-gpu ."
+	},
+	"license": "CC0-1.0",
+	"devDependencies": {
+		"electron": "^13.1.7"
+	}
+}
